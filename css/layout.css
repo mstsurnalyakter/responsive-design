@@ -1,0 +1,87 @@
+.item1{
+    grid-area: item1;
+}
+.item2{
+    grid-area: item2;
+}
+.item3{
+    grid-area: item3;
+}
+.item4{
+    grid-area: item4;
+}
+.item5{
+    grid-area: item5;
+}
+.item6{
+    grid-area: item6;
+}
+.item7{
+    grid-area: item7;
+}
+.item8{
+    grid-area: item8;
+}
+.item9{
+    grid-area: item9;
+}
+.item10{
+    grid-area: item10;
+}
+.item11{
+    grid-area: item11;
+}
+.item12{
+    grid-area: item12;
+}
+
+.container{
+    width: 90vw;
+    height: 100vh;
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas: 'item1 item2 item3 item4'
+    'item1 item5 item6 item7'
+    'item1 item8 item9 item10'
+    'item1 item11 item11 item11'
+    ;
+    gap: 5px;
+
+}
+
+.item11{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.box{
+    /* width: 200px; */
+    /* height: 100px; */
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.item{
+    flex: 1;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item1,.item2,.item3,.item4,.item7,.item8, .item{
+      background-color: gray;
+}
+
+.item5,.item6,.item9 ,.item10{
+    background-color: tomato;
+}
+
+/* .item11,.item12{
+    height: 20px;
+} */
